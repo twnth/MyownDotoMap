@@ -1,0 +1,28 @@
+<ion-header no-border>
+  <ion-toolbar text-center>
+    <ion-title>{{modalTitle}}</ion-title>
+    <ion-row>
+        <ion-col text-center>
+          <ion-buttons end>
+          <ion-button size = "small" fill="clear" (click)="closeModal()"><</ion-button>
+          </ion-buttons>
+        </ion-col>
+      </ion-row>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+  <ion-list>
+      <ion-item>
+          <ion-avatar slot="start">
+            <!-- <ion-img src="./avatar-gollum.jpg"/> -->
+          </ion-avatar>
+          <ion-label>
+            <h2>한아름 병원</h2>
+            <p>서울특별시 중랑구 면목동</p>
+            <p>37.456442 146.78654</p>
+            <p>혹시 모를 리뷰</p>
+          </ion-label>
+        </ion-item>
+  </ion-list>
+
+</ion-content>
